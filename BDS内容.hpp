@@ -94,6 +94,5 @@ struct CommandRegistry {
 	void registerCommand(
 		std::string const& a, char const* b, char c, char d, char e) {
 		SYMCALL(void, MSSYM_MD5_8574de98358ff66b5a913417f44dd706, this, a, b, c, d, e);
-		//Call("?registerCommand@CommandRegistry@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBDW4CommandPermissionLevel@@UCommandFlag@@3@Z", void, void*, std::string const&, char const*, CommandPermissionLevel, CommandFlag, CommandFlag)(this, a, b, c, d, e);
 	}
 };
