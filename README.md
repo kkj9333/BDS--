@@ -1,2 +1,2 @@
-# BDS--
-BDS scoreboard transfer to BDXmoney
+# BDS--ScoreboardTransfer
+ 计分板转bdxmoney
